@@ -1,5 +1,5 @@
 <div class="page">
-
+  <sea-nav-bar/>
   <image class="globalBackground" mode="aspectFill" src="../../packages/background.png" />
   <view class="inputbar">
     <text>输入溯源码</text>
@@ -8,3 +8,5 @@
     <text >查询</text>
   </view>
 </div>
+
+<!-- oke 没有 但是我们不需要返回的组件 对 那就对了 我以为你傻 T T -->

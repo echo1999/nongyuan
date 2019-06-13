@@ -2,6 +2,9 @@
   "pages": [
     "pages/index/index"
   ],
+  "usingComponents": {
+    "sea-nav-bar": "./packages/tab-bar/tab-bar"
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
