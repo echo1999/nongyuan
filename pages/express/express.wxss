@@ -1,0 +1,38 @@
+.page {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page .apple{
+  display:flex;
+  width:450rpx;
+  height:256rpx;
+  margin-top:80rpx;
+}
+.page .greenBox{
+  display:flex;
+  width:604rpx;
+  height:264rpx;
+  margin-top:154rpx;
+  border:2px solid green;
+  border-radius: 4rpx;
+  background: rgba(255,255,255,0.8);
+  /* 数轴 */
+  flex-direction: column;
+  /* 水平居中 */
+  justify-content: center;
+}
+
+.page .greenBox .text{
+  display:flex;
+  font-size:28rpx;
+  margin-left:42rpx;
+}
+.page .greenBox .text + .text {
+  margin-top:28rpx;
+}
+.page .map {
+  width: 80%;
+  height: 200rpx;
+}

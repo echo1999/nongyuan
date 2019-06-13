@@ -3,7 +3,7 @@
     <image class='img1' src="./shoppingcar.svg" />
     <text>在线商城</text>
   </div>
-  <div class='tab'>
+  <div class='tab' bind:tap="bindQRcode">
     <image class='img2' src="./qrcode.svg" />
     <text>扫描二维码</text>
   </div>

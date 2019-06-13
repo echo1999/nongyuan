@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/express/express",
     "pages/index/index"
   ],
   "usingComponents": {

@@ -1,0 +1,13 @@
+<div class="page">
+  <sea-nav-bar />
+  <image class="globalBackground" mode="aspectFill" src="../../packages/background.png" />
+  <image class="apple" mode="aspectFill" src="../../packages/apple.jpg" />
+  <div class="greenBox">
+    <div class="text">运输工具：冷冻车</div>
+    <div class="text">发货日期：2019-07-08</div>
+    <div class="text">物流运输公司：顺丰快递</div>
+  </div>
+  <!-- map.wxml -->
+  <map class="map" longitude="113.324520" latitude="23.099994" scale="14" show-location></map>
+</div>
+<!-- 整地图 -->
