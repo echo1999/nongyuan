@@ -1,3 +1,10 @@
-<view class="inputbar">
-  <text>输入溯源码</text>
-</view>
+<div class="page">
+
+  <image class="globalBackground" mode="aspectFill" src="../../packages/background.png" />
+  <view class="inputbar">
+    <text>输入溯源码</text>
+  </view>
+  <view class="btn">
+    <text >查询</text>
+  </view>
+</div>

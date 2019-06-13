@@ -3,6 +3,9 @@
     "pages/index/index"
   ],
   "window": {
-  },
-  "sitemapLocation": "sitemap.json"
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "农源",
+    "navigationBarTextStyle": "black"
+  }
 }
