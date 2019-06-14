@@ -1,7 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/main/main",
     "pages/express/express",
-    "pages/index/index"
+    "pages/sell/sell",
+    "pages/plant/plant"
   ],
   "usingComponents": {
     "sea-nav-bar": "./packages/tab-bar/tab-bar"

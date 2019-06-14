@@ -1,0 +1,60 @@
+.page {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page .apple{
+  display:flex;
+  width:450rpx;
+  height:256rpx;
+  margin-top:80rpx;
+}
+.page .greenBox{
+  display:flex;
+  width:604rpx;
+  height:516rpx;
+  margin-top:136rpx;
+  /* border:2px solid green; */
+  border-radius: 4rpx;
+  /* background: rgba(255,255,255,0.8); */
+  /* 数轴 */
+  flex-direction: column;
+  /* 水平居中 */
+  justify-content: center;
+  /* 圆角 */
+  border-radius: 30rpx;
+  /* text-align: center; */
+  /* margin-left:52rpx; */
+}
+
+.page .greenBox .content {
+  /* margin-top:28rpx; */
+  display: flex;
+  height:86rpx;
+  width:100%;
+  border:2px solid rgb(152,197,99);
+  /* 圆角 */
+  border-radius: 20rpx;
+  background: rgba(255,255,255,0.8);
+  font-size:44rpx;
+    /* 数轴 */
+  /* flex-direction: column; */
+  /* 水平居中 */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.page .greenBox .content .text{
+  display:flex;
+  font-size:38rpx;
+  margin-left:50rpx;
+}
+
+.page .greenBox .content .back{
+  display:flex;
+  width:74rpx;
+  height:62rpx;
+  margin-left:320rpx;
+  /* margin-bottom:6px; */
+}

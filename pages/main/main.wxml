@@ -1,0 +1,32 @@
+<div class="page">
+  <sea-nav-bar />
+  <image class="globalBackground" mode="aspectFill" src="../../packages/background.png" />
+  <image class="apple" mode="aspectFill" src="../../packages/apple.jpg" />
+  <div class="greenBox">
+    <div class="content">
+      <div class="text">品种：苹果</div>
+    </div>
+    <div class="content">
+      <div class="text">产地：陕西省长武县</div>
+    </div>
+    <div class="content"  bind:tap="bindRedirection1">
+      <div class="text">种植信息</div>
+      <image class="back"  src="../../packages/to.svg" />
+    </div>
+    <div class="content" >
+      <div class="text">加工信息</div>
+      <image class="back"  src="../../packages/to.svg" />
+    </div>
+    <div class="content"  bind:tap="bindRedirection2">
+      <div class="text">物流信息</div>
+      <image class="back" src="../../packages/to.svg" />
+    </div>
+    <div class="content"  bind:tap="bindRedirection3">
+      <div class="text">销售信息</div>
+      <image class="back"  src="../../packages/to.svg" />
+    </div>
+  </div>
+  <!-- map.wxml -->
+  <!-- <map class="map" longitude="113.324520" latitude="23.099994" scale="14" show-location></map> -->
+</div>
+<!-- 整地图 -->

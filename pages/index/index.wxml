@@ -2,11 +2,9 @@
   <sea-nav-bar/>
   <image class="globalBackground" mode="aspectFill" src="../../packages/background.png" />
   <view class="inputbar">
-    <text>输入溯源码</text>
+    <input  placeholder="输入溯源码"  placeholder-class="center"></input>
   </view>
-  <view class="btn">
+  <view class="btn" bind:tap="bindRedirection">
     <text >查询</text>
   </view>
 </div>
-
-<!-- oke 没有 但是我们不需要返回的组件 对 那就对了 我以为你傻 T T -->

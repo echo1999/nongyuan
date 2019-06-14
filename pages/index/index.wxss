@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 .inputbar {
-  margin-top: 680rpx;
+  margin-top: 600rpx;
 	width: 452rpx;
   height: 68rpx;
 	background: rgba(0, 0, 0, 0.6);
@@ -20,8 +20,15 @@
 	/* 垂直居中 */
 	align-items: center;
 	/* 水平居中 */
-	justify-content: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.center{
+    text-align: center;
+    color:white;
+}
+
 .btn {
   /* 布局 */
   display: flex;
@@ -31,10 +38,11 @@
   justify-content: center;
 
   margin-top: 86rpx;
-	width: 150rpx;
-	height: 46rpx;
+	width: 200rpx;
+	height: 66rpx;
 	background: rgba(0, 0, 0, 0.6);
 	color: white;
 	border-radius: 40rpx;
-	font-size: 28rpx;
+	font-size: 32rpx;
 }
+

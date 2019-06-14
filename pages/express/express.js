@@ -6,4 +6,7 @@ Page({
   onLoad() {
   },
   onShow() { },
+//   onUnload:function(){
+//     Sea.back()
+// }
 })

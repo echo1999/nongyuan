@@ -6,7 +6,4 @@ Page({
   onLoad() {
   },
   onShow() { },
-  bindRedirection: function () {
-  Sea.path('pages/main/main')
-  }
 })

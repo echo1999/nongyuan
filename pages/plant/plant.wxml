@@ -1,0 +1,12 @@
+<div class="page">
+  <sea-nav-bar />
+  <image class="globalBackground" mode="aspectFill" src="../../packages/background.png" />
+  <image class="apple" mode="aspectFill" src="../../packages/apple.jpg" />
+  <div class="greenBox">
+    <div class="text">种植商：青青果园（001）</div>
+    <div class="text">使用肥料：海藻钾</div>
+    <div class="text">使用杀虫剂：阿维霉素</div>
+    <div class="text">收成日期：2019-06-21</div>
+    <div class="text">去向：顺丰快递物流运输公司</div>
+  </div>
+</div>
